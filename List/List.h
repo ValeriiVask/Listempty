@@ -41,8 +41,7 @@ public:
 
 	bool empty()
 	{
-		//TODO Implement the empty method that checks if the list is empty.
-		throw std::exception("Not implemented");
+		return head == nullptr;
 	}
 
 	void pushFront(T value)
